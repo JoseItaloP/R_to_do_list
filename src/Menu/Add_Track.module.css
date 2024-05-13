@@ -1,0 +1,31 @@
+
+.icon{
+    width: 10rem;
+    height: 10rem;
+    color: var(--Back_Dark);
+}
+
+.box{
+    margin-top: 10px;
+    background-color: #6095af95;
+    width: 17.5rem;
+    height: 12rem;
+
+    border-radius: 10px;
+    border: 0px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    color: var(--Back_White);
+
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.box:hover{
+    background-color: var(--BG_10);
+}

@@ -1,0 +1,11 @@
+.btn{
+    padding: 15px 156px;
+    margin-top: 10px;
+    background-color: var(--Dark_back);
+    color: var(--Back_White);
+    border: 0px;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: #4a7a92;
+}

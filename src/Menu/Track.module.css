@@ -1,0 +1,45 @@
+
+
+.box{
+    margin-top: 10px;
+    background-color: var(--BG_5);
+    width: 15.5rem;
+    height: 10rem;
+    padding: 15px;
+
+    border-radius: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    color: var(--Back_White);
+}
+
+.box:hover{
+    background-color: var(--BG_10);
+}
+
+.sec01,.sec02{
+    width: 100%;
+    display: flex;
+}
+
+.sec01 p,.sec02 p{
+    color: var(--WG_5);
+}
+.sec01{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sec02{
+    flex-direction: column;
+}
+
+.sec02 h2{
+    font-size: 3.8rem;
+    font-weight: 200;
+}

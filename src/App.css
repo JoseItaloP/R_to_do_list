@@ -1,0 +1,62 @@
+:root{
+  --STK_Azul: #01BEFE;
+  --STK_Amarelo: #FFDD00;
+  --STK_Laranja: #FF7D00;
+  --STK_Rosa: #FF006D;
+  --STK_Verde: #ADFF02;
+  --STK_Roxo: #8F00FF;
+
+  --Back_Dark: #223843;
+  --Back_White: #eff1f3;
+
+  --BG_10: #6095af;
+  --BG_5: #3f677b;
+  --BG_-10: #05090b67;
+  --WG_5: #bec7cf;
+  
+  --Dark_back: #6095af
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.center{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.background{
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--Back_Dark);
+}
+
+.animeLeft{
+  opacity:0;
+  animation: animeLeft .3s forwards;
+}
+
+.button{
+  padding: 10px;
+  margin-bottom: 5px;
+  width: 100%;
+  background-color: var(--Back_Dark);
+  transition: 0.5s;
+
+  border-radius: 5px;
+}
+
+.button:hover{
+  background-color: var(--BG_5);
+  border-radius: 0px;
+}
+
+@keyframes animeLeft {
+  to{
+      opacity:1;
+  }
+}

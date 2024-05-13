@@ -1,0 +1,43 @@
+.elements{
+    width: 50rem;
+    padding: 2rem;
+    background-color: var(--Back_White);
+    border-radius: 15px 15px 0px 0px;
+
+    display: flex;
+    align-items: center;
+}
+.elements img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div1{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.div1 h1{
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+.div1 ul{
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    padding-right: 5px;
+}

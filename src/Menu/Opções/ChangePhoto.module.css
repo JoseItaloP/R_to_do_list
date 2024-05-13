@@ -1,0 +1,20 @@
+.btn{
+    display: inline-block;
+    padding: 7px;
+    color: white;
+    background-color: var(--Back_Dark);
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color: var(--BG_5);
+}
+
+.input{
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.box{
+    padding-top: 10px;
+}

@@ -1,0 +1,44 @@
+.bag_g{
+    background-color: var(--Back_White);
+    color: var(--Back_Dark);
+    z-index: 1000;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.pop_up input{
+    margin-bottom: 15px;
+    color: var(--Back_Dark);
+}
+.Back_Pop{
+    position: absolute;
+    background-color: var(--BG_-10);
+    width: 100vw;
+    height: 100vh;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 15px;
+}
+
+.header button{
+    border: 0px;
+}
+
+.header button:hover{
+    cursor: pointer;
+}
+
+.svg{
+    width: 20px;
+    height: 20px;
+    color: var(--Back_Dark);
+}

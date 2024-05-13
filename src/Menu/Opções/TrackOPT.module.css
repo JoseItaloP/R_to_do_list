@@ -1,0 +1,66 @@
+.Back_Pop{
+    z-index: 600;
+    position: absolute;
+    background-color: var(--BG_-10);
+    width: 100vw;
+    height: 100vh;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bag_g{
+    background-color: var(--Back_White);
+    color: var(--Back_Dark);
+    z-index: 2000;
+    padding: 2rem;
+    border-radius: 10px;
+    
+}
+
+.svg{
+    width: 30px;
+    height: 30px;
+    color: var(--Back_White);
+    transform: rotate(90deg);
+}
+
+.closeSVG{
+    width: 20px;
+    height: 20px;
+    color: var(--Back_Dark);
+}
+
+
+button{
+    border: 0px;
+    background-color: transparent;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.headerOPT{
+    /*CONFIGURA O HEADER*/
+    justify-content: space-between;
+    align-items: center;
+
+    padding-bottom: 20px;
+    padding-right: 40px;
+    
+}
+
+.bodyOPT{
+    /*CONFIGURA O BODY*/
+    flex-direction: column!important;
+    align-items: flex-start;
+
+}
+
+.headerOPT,.bodyOPT{    
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
